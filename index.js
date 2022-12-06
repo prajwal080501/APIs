@@ -6,7 +6,7 @@ const dotenv = require("dotenv");
 const connectDB = require("./config/db.js");
 const authRoutes = require("./routes/auth.js");
 const errorMiddleware = require("./middleware/error");
-const ErrorResponse = require("./utils/errorResponse");
+const ErrorResponse = require("./utils/errorresponse");
 const privateRoutes = require("./routes/private.js");
 dotenv.config({ path: "./.env.local" });
 const app = express();

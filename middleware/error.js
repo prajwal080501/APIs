@@ -1,4 +1,4 @@
-const ErrorResponse = require('../utils/errorResponse');
+const ErrorResponse = require('../utils/errorresponse');
 
 module.exports = (err, req, res, next) => {
     err.statusCode = err.statusCode || 500;
