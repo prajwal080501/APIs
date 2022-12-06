@@ -1,7 +1,7 @@
 const User = require("../models/User");
 const bcrypt = require("bcrypt");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
-const ErrorResponse = require("../utils/errorResponse");
+const ErrorResponse = require("../utils/errorresponse");
 const { validationResult } = require("express-validator");
 const sendToken = require("../utils/sendToken");
 const {sendEmail} = require("../utils/sendMail");
